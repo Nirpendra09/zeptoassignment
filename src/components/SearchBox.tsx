@@ -1,9 +1,9 @@
-import React, { useState, useCallback, useRef } from "react";
+import React, { useCallback, useState } from "react";
+import { data } from "../data";
+import { useOutsideClick } from "../hooks/useOutsideClick";
 import "../styles/SearchBox.css";
 import Chip from "./Chip";
 import ResultList from "./ResultList";
-import { useOutsideClick } from "../hooks/useOutsideClick";
-import { data } from "../data";
 
 // Define the User interface
 interface User {
